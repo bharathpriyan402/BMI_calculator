@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #FF0606 0%, rgba(255, 0, 0, 0.22) 46.88%, rgba(255, 0, 0, 0.17) 49.48%, rgba(255, 0, 0, 0.00) 66.67%, rgba(0, 0, 0, 0.81) 99.99%, rgba(14, 1, 1, 0.00) 100%);
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Parent-Container{
+    background: linear-gradient(180deg, #FF0606 0%, rgba(255, 0, 0, 0.22) 46.88%, rgba(255, 0, 0, 0.17) 49.48%, rgba(255, 0, 0, 0.00) 66.67%, rgba(0, 0, 0, 0.81) 99.99%, rgba(14, 1, 1, 0.00) 100%);
+    color: white;
+}
+
+.container{
+    box-shadow: 0px 0px 15px 10px #2fcdb533;
+    /* background: linear-gradient(180deg, #E2E2E2 0%, rgba(0, 0, 0, 0.07) 93.23%, rgba(255, 0, 0, 0.00) 100%); */
+    background: linear-gradient(180deg, #FF0606 0%, rgba(255, 0, 0, 0.22) 46.88%, rgba(255, 0, 0, 0.17) 49.48%, rgba(255, 0, 0, 0.00) 66.67%, rgba(0, 0, 0, 0.81) 99.99%, rgba(14, 1, 1, 0.00) 100%);
+    width: 30%;
+    height: 80vh;
+    color: white;
+}
+
+.title{
+    margin: 34px 0;
+    text-align: center;
+    color: white;
+}
+
+.labels{
+    font-size: 22px;
+    padding-left: 30px;
+    color: white;
+}
+
+.bmi-input{
+    width:80%;
+    height: 30px;
+    margin-left: 33px;
+    margin-top: 12px;
+    color: white;
+}
+
+.btn{
+    width: 25%;
+    font-size: 1.2rem;
+    margin: 20px 0 0 50px;
+    color: white;
+    
+}
+.result{
+    color: white;
+}
